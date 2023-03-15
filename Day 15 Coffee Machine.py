@@ -31,8 +31,8 @@ resources = {
     "coffee": 100,
 }
 profit = 0
-xxx = True
-while xxx == True:
+
+while True:
     drink_type = input('What would you like? (espresso/latte/cappuccino): ',)
     
     def resource_check(res = drink_type):
